@@ -52,11 +52,11 @@ def run_timer_app(): #helps run the app
     timer_seconds = 0 # tracks the timer countdown in seconds for the Timer mode
 
     # Main buttons
-    timer_btn = Button((50, 20, 120, 40), "Timer")
-    sw_btn = Button((190, 20, 120, 40), "Stopwatch")
-    start_btn = Button((30, 420, 90, 40), "Start")
-    stop_btn = Button((135, 420, 90, 40), "Stop")
-    reset_btn = Button((240, 420, 90, 40), "Reset")
+    timer_btn = Button((50, 20, 140, 40), "Timer")
+    sw_btn = Button((190, 20, 140, 40), "Stopwatch")
+    start_btn = Button((30, 420, 110, 40), "Start")
+    stop_btn = Button((135, 420, 110, 40), "Stop")
+    reset_btn = Button((240, 420, 110, 40), "Reset")
 
     # Increment buttons (top half)
     inc_h1 = Button((30, 80, 70, 40), "+1h")

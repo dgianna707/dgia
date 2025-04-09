@@ -1,4 +1,4 @@
-pipimport time # imports the time module to allow us to track and measure the time
+import time # imports the time module to allow us to track and measure the time
 import pygame #imports the pygame library. Lets us use things like buttons, fonts and the display window
 import sys # Imports the sys module allowing us to do specific operations like exiting the program
 

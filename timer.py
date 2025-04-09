@@ -1,10 +1,10 @@
-import time # imports the time module to allow us to track and measure the time
+pipimport time # imports the time module to allow us to track and measure the time
 import pygame #imports the pygame library. Lets us use things like buttons, fonts and the display window
 import sys # Imports the sys module allowing us to do specific operations like exiting the program
 
 # Initialize pygame
 pygame.init() #initializes the pygame module
-screen = pygame.display.set_mode((310, 480)) #creates the screen window which is 470x310 pixels
+screen = pygame.display.set_mode((480, 320)) #creates the screen window which is 470x310 pixels
 pygame.display.set_caption("Timer & Stopwatch") # creates a title on the screen
 font = pygame.font.SysFont(None, 32) # uses the system's default font with the size of 32
 
@@ -52,11 +52,11 @@ def run_timer_app(): #helps run the app
     timer_seconds = 0 # tracks the timer countdown in seconds for the Timer mode
 
     # Main buttons
-    timer_btn = Button((50, 20, 140, 40), "Timer")
-    sw_btn = Button((190, 20, 140, 40), "Stopwatch")
-    start_btn = Button((30, 420, 110, 40), "Start")
-    stop_btn = Button((135, 420, 110, 40), "Stop")
-    reset_btn = Button((240, 420, 110, 40), "Reset")
+    timer_btn = Button((70, 40, 140, 60), "Timer")
+    sw_btn = Button((210, 40, 140, 60), "Stopwatch")
+    start_btn = Button((50, 440, 110, 60), "Start")
+    stop_btn = Button((155, 440, 110, 60), "Stop")
+    reset_btn = Button((260, 440, 110, 60), "Reset")
 
     # Increment buttons (top half)
     inc_h1 = Button((30, 80, 70, 40), "+1h")
